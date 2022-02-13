@@ -2,11 +2,12 @@ import 'package:day3/screens/home.dart';
 import "package:flutter/material.dart";
 import 'screens/login.dart';
 
+
 void main() {
   runApp(MyApp());
 }
 
-// Day3 Task: Functions,Themes,classes,Routes
+// Day4 Task: Adding image from Asset,Google Fonts,ElevatedButton,Login Screen Design
 class MyApp extends StatelessWidget {
   Widget build(BuildContext context) {
     return MaterialApp(
@@ -18,9 +19,9 @@ class MyApp extends StatelessWidget {
       ),
       // theme Data for light theme
       theme: ThemeData(
-        primarySwatch: Colors.red,
+        primarySwatch: Colors.orange,
       ),
-      // initialRoute: "/login",
+      initialRoute: "/login",
       routes: {
         '/': (context) => Home(),
         "/login": (context) => Login(),
