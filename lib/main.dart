@@ -7,8 +7,13 @@ void main() {
   runApp(MyApp());
 }
 
-// Day5 Task: SingleChildScrollView,Navigator,Separate Routes File
-class MyApp extends StatelessWidget {
+// Day8 Task: Form,Validation,,InkWell
+class MyApp extends StatefulWidget {
+  @override
+  State<MyApp> createState() => _MyAppState();
+}
+
+class _MyAppState extends State<MyApp> {
   Widget build(BuildContext context) {
     return MaterialApp(
       // home: Home(),
